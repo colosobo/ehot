@@ -9,7 +9,11 @@
 # ehot
 热部署 Java hot deployment for idea 2021-2022 plugin.
 
-支持 Java 程序远程热部署.
+基于 IDEA 插件的方式支持 Java 程序远程热部署.
+
+# Gradle
+
+7.4.2
 
 # License
 
