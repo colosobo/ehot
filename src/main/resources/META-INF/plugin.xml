@@ -1,0 +1,28 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>EHot-IDEA-Plugin</id>
+
+    <name>EHot_IDEA_Plugin</name>
+
+    <vendor email="cxstateis0@gmail.com" url="https://www.thinkinjava.cn">timevale</vendor>
+
+    <description><![CDATA[
+        热部署插件 EHot.<br>
+        <em>hello my honey</em>
+        ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+
+    <extensions defaultExtensionNs="com.intellij">
+        <postStartupActivity implementation="cxs.idea.plugin.EhotStartupActivity"/>
+    </extensions>
+
+    <actions>
+        <action id="EHotAction" class="cxs.idea.plugin.EHotManager" text="EHot秒级热部署" description="EHot">
+            <add-to-group group-id="ToolsMenu" anchor="last" />
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift P"/>
+        </action>
+    </actions>
+</idea-plugin>
