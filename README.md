@@ -11,10 +11,10 @@
 
 基于 IDEA 插件的方式支持 Java 程序远程热部署.
 
-[插件图 1](pic/img.png)
-[插件图 2](pic/img_1.png)
-[插件图 3](pic/img_2.png)
-[插件图 4](pic/img_3.png)
+![插件图 1](pic/img.png)
+![插件图 2](pic/img_1.png)
+![插件图 3](pic/img_2.png)
+![插件图 4](pic/img_3.png)
 
 # Gradle
 
