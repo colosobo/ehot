@@ -45,7 +45,7 @@ public class InputDialog extends DialogWrapper {
         jl1Text.setText(this.fileName);
         jl1Text.setEditable(false);
 
-        JLabel jl2 = new JLabel("热部署的目标 k8s Pod IP:");
+        JLabel jl2 = new JLabel("热部署的目标 IP:");
         JTextField jl2Text = new JTextField();
         jl2Text.setText(eHotManager.preIP);
         jl2Text.setPreferredSize(new Dimension(400, 28));
